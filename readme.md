@@ -14,11 +14,11 @@ You don't have to download anything. Simply open up Terminal (found under Applic
 
 **To install:**
 
-`sh install.sh`
+`curl -s https://raw.githubusercontent.com/PierreLvx/X-Plane-CLI-Tools-Installer/master/install.sh | sh`
 
 **To uninstall**
 
-`sh uninstall.sh`
+`curl -s https://raw.githubusercontent.com/PierreLvx/X-Plane-CLI-Tools-Installer/master/uninstall.sh | sh`
 
 That's it :)
 
