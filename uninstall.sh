@@ -10,4 +10,4 @@ if [ -d ~/.$PACKAGE ]; then
 	exit
 fi
 
-echo "\033[31mCould not detect an installation of the X-Plane CLI tools. Exiting.\033[m"
+echo "\033[31mCould not detect a previous installation of the X-Plane CLI tools.\033[m"

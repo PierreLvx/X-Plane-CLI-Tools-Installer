@@ -1,6 +1,6 @@
 #X-Plane Command Line Tools Installer
 
-This is a quick script to install the [X-Plane command line tools](http://developer.x-plane.com/tools/xptools/), currently on Mac OS X only, so that you can use them directly from the terminal in your development process, and/or automate your production pipeline slightly more easily.
+This is a quick script to install the [X-Plane command line tools](http://developer.x-plane.com/tools/xptools/), currently on Mac OS X and Linux only, so that you can use them directly from the terminal in your development process, and/or automate your production pipeline slightly more easily.
 
 ###Features
 
