@@ -22,4 +22,4 @@ echo "Extracted tools. Now linking to the binaries..."
 ln -s ~/.$PACKAGE/DDSTool /usr/local/bin
 ln -s ~/.$PACKAGE/DSFTool /usr/local/bin
 ln -s ~/.$PACKAGE/ObjConverter /usr/local/bin
-echo "The X-Plane CLI tools have been successfully uninstalled."
+echo "\033[32mThe X-Plane CLI tools have been successfully installed.\033[m"
