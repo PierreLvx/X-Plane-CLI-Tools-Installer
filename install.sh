@@ -1,8 +1,23 @@
 #!/bin/bash
 
-# The remote URL. We should be able to change this line only between versions.
-REMOTE="http://dev.x-plane.com/download/tools/xptools_mac_12-2.zip"
 PACKAGE="x-plane_cli_tools"
+
+# Platform selection.
+if [ $# -eq 0 ]; then
+    echo "\033[31mYou must specify a target platform (MAC or LIN).\033[m"
+    exit
+fi
+if [ $1 != "MAC" ] && [ $1 != "LIN" ]; then
+    echo "Invalid argument. Supported platforms are MAC and LIN."
+    exit
+else
+    if [ $1 = "MAC" ]; then
+        REMOTE="http://dev.x-plane.com/download/tools/xptools_mac_12-2.zip"
+    fi
+    if [ $1 = "LIN" ]; then
+        REMOTE="http://dev.x-plane.com/download/tools/xptools_lin_12-2.zip"
+    fi
+fi
 
 # Grab the package. Enable silent mode.
 echo "Downloading tools..."
