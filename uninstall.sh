@@ -6,8 +6,8 @@ PACKAGE="x-plane_cli_tools"
 if [ -d ~/.$PACKAGE ]; then
 	rm -rf ~/.$PACKAGE
 	rm /usr/local/bin/{DDSTool,DSFTool,ObjConverter}
-	echo "The X-Plane CLI tools have been successfully uninstalled."
+	echo "\033[32mThe X-Plane CLI tools have been successfully uninstalled.\033[m"
 	exit
 fi
 
-echo "Could not detect an installation of the X-Plane CLI tools. Exiting."
+echo "\033[31mCould not detect an installation of the X-Plane CLI tools. Exiting.\033[m"
