@@ -6,7 +6,6 @@ This is a quick script to install the [X-Plane command line tools](http://develo
 
 * **DSFTool** : converts DSF files to text format and back.
 * **DDSTool** : converts PNG files to DDS format.
-* **ObjConverter** : converts 3DS and DXF files to X-Plane 8 OBJ format.
 
 ##Installating / Updating
 
@@ -28,7 +27,7 @@ On both platforms:
 
 ##TODO
 
-- [ ] Dependencies (`curl` and `unzip`) checking on Linux.
+- [-] Dependencies (`curl` and `unzip`) checking on Linux.
 
 ##Contributing
 
