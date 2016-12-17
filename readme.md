@@ -27,7 +27,7 @@ On both platforms:
 
 ##TODO
 
-- [-] Dependencies (`curl` and `unzip`) checking on Linux.
+- [x] Dependencies (`curl` and `unzip`) checking on Linux.
 
 ##Contributing
 
