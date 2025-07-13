@@ -14,10 +14,10 @@ if hash unzip 2>/dev/null; then
         exit
     else
         if [ $1 = "MAC" ]; then
-            REMOTE="https://dev.x-plane.com/download/tools/xptools_mac_15-3.zip"
+            REMOTE="https://files.x-plane.com/public/xptools/xptools_mac_24-5.zip"
         fi
         if [ $1 = "LIN" ]; then
-            REMOTE="https://dev.x-plane.com/download/tools/xptools_lin_15-3.zip"
+            REMOTE="https://files.x-plane.com/public/xptools/xptools_lin_24-5.zip"
         fi
     fi
 else
